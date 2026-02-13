@@ -22,7 +22,7 @@ const Header = () => {
         <div className="flex lg:gap-14 gap-4 items-center">
             <img 
                 className="md:w-16 w-12" 
-                src="public\images\logo.png" alt="logo-img" 
+                src="/images/logo.png" alt="logo-img" 
             />
             <div className="hidden md:flex gap-5 items-center">
                 <button 

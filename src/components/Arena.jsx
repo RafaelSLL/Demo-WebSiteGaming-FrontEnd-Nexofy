@@ -28,7 +28,7 @@ const Arena = () => {
                 >   
                     {/* CARD background with gradient*/}
                     <div className='absolute h-full w-full'>
-                        <img src='public\images\bento-card1.png' alt='card-'/>
+                        <img src='/images/bento-card1.png' alt='card-'/>
                         <button className='absolute bottom-0 h-16 w-full 
                                             bg-black bg-opacity-70 text-2xl font-bold 
                                             hover:text-yellow-400 transition-all duration-200 text-nowrap'>
@@ -43,7 +43,7 @@ const Arena = () => {
                                  duration-300 hover:scale-105'>
 
                         <video 
-                            src='public\videos\bento-card2.mp4'
+                            src='/videos/bento-card2.mp4'
                             autoPlay
                             loop
                             muted
@@ -65,7 +65,7 @@ const Arena = () => {
 
                         <video 
                             className='w-full h-full object-cover'
-                            src='public\videos\bento-card3.mp4'
+                            src='/videos/bento-card3.mp4'
                             autoPlay
                             loop
                             muted
@@ -84,7 +84,7 @@ const Arena = () => {
 
                         <video 
                             className='w-full h-full object-cover'
-                            src='public\videos\bento-card4.mp4'
+                            src='/videos/bento-card4.mp4'
                             autoPlay
                             loop
                             muted
@@ -102,7 +102,7 @@ const Arena = () => {
 
                         <video 
                             className='w-full h-full object-cover'
-                            src='public\videos\bento-card5.mp4'
+                            src='/videos/bento-card5.mp4'
                             autoPlay
                             loop
                             muted
@@ -118,7 +118,7 @@ const Arena = () => {
                 <div className='relative overflow-hidden rounded-3xl 
                                 border border-white aspect-[16/9] md:col-span-2 transform 
                                 transition-transform duration-300 hover-scale-[1.02]'>
-                    <img src='public\images\bento-card5.png' alt='card-6'/>
+                    <img src='/images/bento-card5.png' alt='card-6'/>
 
                     <button className='absolute bottom-0 h-16 w-full 
                                        bg-black bg-opacity-70 text-2xl font-bold 
